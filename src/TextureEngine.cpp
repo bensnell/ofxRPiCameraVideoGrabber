@@ -7,6 +7,8 @@
  *
  */
 
+#ifdef __arm__
+
 #include "TextureEngine.h"
 
 TextureEngine::TextureEngine()
@@ -520,3 +522,6 @@ TextureEngine::~TextureEngine()
 	}
     ofLogVerbose(__func__) << "END";
 }
+
+
+#endif

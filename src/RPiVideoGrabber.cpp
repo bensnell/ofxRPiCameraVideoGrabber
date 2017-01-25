@@ -6,6 +6,8 @@
 //  Copyright © 2015 jason van cleave. All rights reserved.
 //
 
+#ifdef __arm__
+
 #include "RPiVideoGrabber.h"
 
 
@@ -134,3 +136,4 @@ void RPiVideoGrabber::videoSettings()
     ofLogError(__func__) << "not used";
 }
 
+#endif

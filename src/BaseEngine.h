@@ -6,6 +6,8 @@
  *
  */
 
+#ifdef __arm__
+
 #pragma once
 
 #include "ofMain.h"
@@ -90,3 +92,5 @@ protected:
                          OMX_IN OMX_BUFFERHEADERTYPE*){return OMX_ErrorNone;};
 	
 };
+
+#endif

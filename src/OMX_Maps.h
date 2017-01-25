@@ -1,3 +1,5 @@
+#ifdef __arm__
+
 #ifndef OMX_Maps_h
 #define OMX_Maps_h
 
@@ -9,6 +11,7 @@
 #include <IL/OMX_Image.h>
 #include <IL/OMX_Video.h>
 #include <IL/OMX_Broadcom.h>
+
 
 
 
@@ -1461,5 +1464,7 @@ OMX_ERRORTYPE FlushOMXComponent(OMX_HANDLETYPE handle, int port)
     OMX_TRACE(error);
     return error;
 }
+
+#endif
 
 #endif

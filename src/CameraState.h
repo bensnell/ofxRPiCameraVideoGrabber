@@ -1,3 +1,5 @@
+#ifdef __arm__
+
 #pragma once
 #include "ofMain.h"
 //#include "ofxRPiCameraVideoGrabber.h"
@@ -72,3 +74,5 @@ public:
     
     
 };
+
+#endif

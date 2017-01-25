@@ -5,6 +5,8 @@
  *
  */
 
+#ifdef __arm__
+
 #pragma once
 
 #include "ofMain.h"
@@ -273,3 +275,5 @@ private:
     OMX_CONFIG_BOOLEANTYPE disableSoftwareSaturationConfig;
 	
 };
+
+#endif

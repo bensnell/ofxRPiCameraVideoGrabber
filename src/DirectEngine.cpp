@@ -4,6 +4,8 @@
  https://github.com/tjormola/rpi-openmax-demos/
  */
 
+#ifdef __arm__
+
 #include "DirectEngine.h"
 DirectEngine::DirectEngine()
 {
@@ -397,5 +399,5 @@ OMX_ERRORTYPE DirectEngine::encoderFillBufferDone(OMX_IN OMX_HANDLETYPE hCompone
 }
 
 
-
+#endif
 

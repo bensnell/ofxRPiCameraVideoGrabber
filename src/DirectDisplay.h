@@ -1,3 +1,5 @@
+#ifdef __arm__
+
 #pragma once
 
 #include "ofMain.h"
@@ -249,3 +251,5 @@ public:
  
                
 };
+
+#endif

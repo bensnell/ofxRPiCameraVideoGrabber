@@ -1,3 +1,5 @@
+#ifdef __arm__
+
 #pragma once
 
 #include "BaseEngine.h"
@@ -35,3 +37,5 @@ private:
     
 
 };
+
+#endif

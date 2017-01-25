@@ -1,4 +1,6 @@
-#pragma once 
+#ifdef __arm__
+
+#pragma once
 
 #include "ofxRPiCameraVideoGrabber.h"
 
@@ -41,3 +43,5 @@ public:
     
     vector<ofVideoDevice> unused;
 };
+
+#endif

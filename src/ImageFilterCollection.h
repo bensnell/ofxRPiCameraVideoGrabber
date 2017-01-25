@@ -3,6 +3,8 @@
  *  Created by jason van cleave on 8/7/13.
  */
 
+#ifdef __arm__
+
 #pragma once
 
 #include "ofMain.h"
@@ -91,3 +93,5 @@ public:
 	string currentFilterName;
 	size_t currentFilterIndex;
 };
+
+#endif

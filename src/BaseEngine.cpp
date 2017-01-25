@@ -1,3 +1,5 @@
+#ifdef __arm__
+
 #include "BaseEngine.h"
 
 
@@ -266,4 +268,6 @@ void BaseEngine::writeFile()
 	}
     recordedFrameCounter = 0;
 }
+
+#endif
 

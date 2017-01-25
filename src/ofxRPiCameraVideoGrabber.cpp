@@ -1,3 +1,5 @@
+#ifdef __arm__
+
 #include "ofxRPiCameraVideoGrabber.h"
 
 #pragma mark SETUP
@@ -1649,4 +1651,5 @@ ofxRPiCameraVideoGrabber::~ofxRPiCameraVideoGrabber()
     close();
 }
 
+#endif
 

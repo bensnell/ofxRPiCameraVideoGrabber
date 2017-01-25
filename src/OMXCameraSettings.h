@@ -1,3 +1,5 @@
+#ifdef __arm__
+
 #pragma once
 
 #include "ofMain.h"
@@ -40,3 +42,5 @@ public:
         return info.str();
     }
 };
+
+#endif
